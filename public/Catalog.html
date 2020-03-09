@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catalog</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/catalog.css">
+
+
+</head>
+<body>
+
+  <!-- header -->
+
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">WW Industrial Corp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Admin.html">Admin page</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <div class="form-inline my-2 my-lg-0">
+        <input id="txtSearch" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="btnSearch" class="btn btn-outline-success my-2 my-sm-0" type="button">Search</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- content -->
+
+    <div class="head">
+      <img src="img/backg.png">
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-10">
+
+          <div id="catalog" class="catalog">
+
+            <!-- inside here render the items -->
+
+
+          </div>
+        </div>
+
+        <div class="col-2">
+          <ul id="categories" class="list-group">
+            <li class="list-group-item active">Categories</li>
+          </ul>
+        </div>
+
+      </div>  
+      
+      
+
+
+    </div>
+
+<!-- Modal window -->
+
+<div id="modal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Selected Item Image</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+
+            <div class="modal-body">
+                <img id="modalImg">
+            </div>
+        </div>
+    </div>
+</div>
+    
+  <!-- footer -->
+
+
+
+<!-- Script -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html-minifier/4.0.0/htmlminifier.js" integrity="sha256-WzoBdkhRgT0pl7DJJeVao+gZdB7HXgE7d5oU5oU58ZY=" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<script src="scripts/catalog.js"></script>
+  
+
+</body>
+</html>

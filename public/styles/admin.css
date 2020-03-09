@@ -1,0 +1,32 @@
+h1{
+
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(26, 35, 116);
+    margin-top: 0;
+    color: white;
+}
+.container{
+    border:1px solid rgb(26, 35, 116);
+    padding: 0;
+}
+.form{
+    padding: 10px 20px;
+}
+.row{
+
+    margin-bottom: 25px;
+}
+
+.col-4{
+    text-align: right;
+}
+.hidden{
+    display:none ;
+}
+
+.btnS{
+    margin-left:800px !important; 
+}
+

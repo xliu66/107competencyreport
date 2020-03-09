@@ -1,0 +1,13 @@
+.container{
+    margin-left: 15px;
+}
+.message{
+    height: 200px;
+}
+.hidden{
+    display:none ;
+    
+}
+.btnS{
+    margin-left:800px !important; 
+}
